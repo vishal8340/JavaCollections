@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testcase classname="ConfigTool Login Feature" name="ConfigTool Login  Scenario" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user already on login page............................................undefined
+When title of login page if configtool......................................undefined
+Then user enters Credentials and tool to LogIn..............................undefined
+Then user clicks on login button............................................undefined
+Then user is on home page...................................................undefined
+And log out the home page...................................................undefined
+]]></failure>
+</testcase>
+</testsuite>

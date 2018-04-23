@@ -23,11 +23,11 @@ public class MinMaxInArray {
 				min = numbers[i];
 			}
 			
-			System.out.println("\nGiven array is : "+ Arrays.toString(numbers));
-			System.out.println("Maximum number is : "+ max);
-			System.out.println("Minimum number is : "+ min);
+			
 		}
-		
+		System.out.println("\nGiven array is : "+ Arrays.toString(numbers));
+		System.out.println("Maximum number is : "+ max);
+		System.out.println("Minimum number is : "+ min);
 
 	}
 

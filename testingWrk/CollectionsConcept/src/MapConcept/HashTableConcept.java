@@ -3,8 +3,6 @@ package MapConcept;
 import java.util.Hashtable;
 import java.util.Map.Entry;
 
-import ListConcept.Employee;
-
 public class HashTableConcept {
 
 	public static void main(String[] args) {
@@ -34,9 +32,7 @@ public class HashTableConcept {
 			System.out.println(key);
 			System.out.println(str);
 			
-			
-			
-			
+		
 		
        }
 	}

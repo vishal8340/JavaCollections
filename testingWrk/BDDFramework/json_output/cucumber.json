@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#With Map in Cucumber"
+          }
+        ],
+        "line": 4,
+        "name": "ConfigTool Login  Scenario",
+        "description": "",
+        "id": "configtool-login-feature;configtool-login--scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user already on login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "title of login page if configtool",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user enters Credentials and tool to LogIn",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "tool"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "vverma",
+                  "123456",
+                  "Checker"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "vverma",
+                  "123456",
+                  "Updater"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "user clicks on login button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "user is on home page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "log out the home page",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "ConfigTool Login Feature",
+    "description": "",
+    "id": "configtool-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/vimal.verma/testingWrk/BDDFramework/src/main/java/Features/Map_LogIn.feature"
+  }
+]
